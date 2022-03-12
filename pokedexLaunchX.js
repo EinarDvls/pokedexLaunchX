@@ -1,6 +1,8 @@
-const fetchpokemon = () =>{
-    const url = ' https://pokeapi.co/api/v2/pokemon/chikorita';
-    fetch(url).then((res)=> {
+console.log("hola explorers");
+const fetchPokemon = () => {
+    fetch(URL).then((res)=>{
+        console.log(res);
         return res.json();
     })
 }
+fetchPokemon();
