@@ -5,6 +5,14 @@ const fetchPokemon = () =>{
         return res.json();
     }).then((data) =>{
         console.log(data);
+        let pokeImg = data.sprites.front_default;
+        console.log(pokeImg);
     })
     }
-fetchPokemon();
+//fetchPokemon();
+
+const imprimir = () => {
+    const pokeName = document.getElementById("pokeName");
+    let pokeInput = pokeName.value;
+    console.log("hola" + pokeInput);
+}
