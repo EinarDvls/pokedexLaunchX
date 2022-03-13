@@ -11,6 +11,15 @@ const fetchPokemon = () =>{
     }
 //fetchPokemon();
 
+const pokeImage = (url) =>{
+    const pokeImg = document.getElementById("pokeImg");
+    pokeImg.src = url;
+}
+
+pokeImage(
+    
+)
+
 const imprimir = () => {
     const pokeName = document.getElementById("pokeName");
     let pokeInput = pokeName.value;
